@@ -14,5 +14,5 @@ setup(
         "vocos",
         "IPython",
     ],  # 定义依赖哪些模块
-    packages=["ChatTTS"],  # 系统自动从当前目录开始找包
+    packages=["ChatTTS/*"],  # 系统自动从当前目录开始找包
 )
