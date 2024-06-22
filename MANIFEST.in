@@ -1,1 +1,1 @@
-recursive-include ChatTTS/*
+recursive-include ChatTTS *
