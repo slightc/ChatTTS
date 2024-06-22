@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="chattts",
-    version="0.0.5",
+    version="0.0.6",
     author="2noise",
     url="https://github.com/2noise/ChatTTS",
     install_requires=[
@@ -15,4 +15,5 @@ setup(
         "IPython",
     ],  # 定义依赖哪些模块
     packages=find_packages(),
+    include_package_data=True,
 )
